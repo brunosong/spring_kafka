@@ -1,0 +1,13 @@
+spring:
+  kafka:
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      properties:
+        "[spring.json.type.mapping]": foo:com.example.sample02.common.Foo1,bar:com.example.sample02.common.Bar1,song:com.example.sample02.common.Song1
+    consumer:
+      value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+
+logging:
+  level:
+    root: info

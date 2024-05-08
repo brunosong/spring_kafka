@@ -1,6 +1,6 @@
 package com.example.sample01;
 
-import com.brunsong.sample01.common.Foo2;
+import com.example.sample01.common.Foo2;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
